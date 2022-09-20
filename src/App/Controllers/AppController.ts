@@ -15,7 +15,7 @@ export class AppController extends UIController {
     public LoadView() {
         return UIScene(
             VStack({ alignment: cTop })(
-                Text('Hello__ Tuval').fontSize(20)
+                Text('Hello Tuval').fontSize(20)
             )
 
         )
