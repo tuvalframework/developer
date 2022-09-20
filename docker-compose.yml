@@ -4,7 +4,7 @@ services:
     container_name: realm_dev_1
     image: bpmgenesis/portal:1.0
     ports:
-      - "5050:5050"
+      - "8080:5050"
     environment:
       db_type: local
       gateway_url: http://tuvalapi.com
